@@ -22,6 +22,6 @@ nvm install --<the node version>
 
 Generate a list of node versions:
 
-shell```
+```shell
 nvm ls-remote
 ```
