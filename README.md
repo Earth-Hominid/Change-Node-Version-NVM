@@ -14,14 +14,24 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 ```
 
-Finally, to select the node version you need:
+Install node version:
 
 ```shell
-nvm install --<the node version>
+nvm install <node version>
 ```
 
 Generate a list of node versions:
 
 ```shell
 nvm ls-remote
+```
+
+Use specific node version:
+```shell
+nvm use <node version>
+```
+
+Uninstall
+```shell
+nvm uninstall <version number>
 ```
