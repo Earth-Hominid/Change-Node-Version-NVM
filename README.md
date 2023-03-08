@@ -19,3 +19,9 @@ Finally, to select the node version you need:
 ```shell
 nvm install --<the node version>
 ```
+
+Generate a list of node versions:
+
+shell```
+nvm ls-remote
+```
