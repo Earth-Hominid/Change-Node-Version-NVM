@@ -1,4 +1,4 @@
-# --Node-Version-NVM
+# Change-Node-Version-NVM
 Change the version of Node using NVM. 
 
 First, install NVM:
